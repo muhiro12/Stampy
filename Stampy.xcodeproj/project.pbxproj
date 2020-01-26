@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA6D41E23DD0EF200BA6104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D41D23DD0EF200BA6104 /* AppDelegate.swift */; };
+		ADA6D42023DD0EF200BA6104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D41F23DD0EF200BA6104 /* SceneDelegate.swift */; };
+		ADA6D42223DD0EF200BA6104 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D42123DD0EF200BA6104 /* ContentView.swift */; };
+		ADA6D42423DD0EF300BA6104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA6D42323DD0EF300BA6104 /* Assets.xcassets */; };
+		ADA6D42723DD0EF300BA6104 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA6D42623DD0EF300BA6104 /* Preview Assets.xcassets */; };
+		ADA6D42A23DD0EF300BA6104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA6D42823DD0EF300BA6104 /* LaunchScreen.storyboard */; };
+		ADA6D43523DD0EF300BA6104 /* StampyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D43423DD0EF300BA6104 /* StampyTests.swift */; };
+		ADA6D44023DD0EF300BA6104 /* StampyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D43F23DD0EF300BA6104 /* StampyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA6D43123DD0EF300BA6104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA6D41223DD0EF200BA6104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA6D41923DD0EF200BA6104;
+			remoteInfo = Stampy;
+		};
+		ADA6D43C23DD0EF300BA6104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA6D41223DD0EF200BA6104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA6D41923DD0EF200BA6104;
+			remoteInfo = Stampy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA6D41A23DD0EF200BA6104 /* Stampy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stampy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA6D41D23DD0EF200BA6104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA6D41F23DD0EF200BA6104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADA6D42123DD0EF200BA6104 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADA6D42323DD0EF300BA6104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA6D42623DD0EF300BA6104 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADA6D42923DD0EF300BA6104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA6D42B23DD0EF300BA6104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA6D43023DD0EF300BA6104 /* StampyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA6D43423DD0EF300BA6104 /* StampyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampyTests.swift; sourceTree = "<group>"; };
+		ADA6D43623DD0EF300BA6104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA6D43B23DD0EF300BA6104 /* StampyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA6D43F23DD0EF300BA6104 /* StampyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampyUITests.swift; sourceTree = "<group>"; };
+		ADA6D44123DD0EF300BA6104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA6D41723DD0EF200BA6104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6D42D23DD0EF300BA6104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6D43823DD0EF300BA6104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA6D41123DD0EF200BA6104 = {
+			isa = PBXGroup;
+			children = (
+				ADA6D41C23DD0EF200BA6104 /* Stampy */,
+				ADA6D43323DD0EF300BA6104 /* StampyTests */,
+				ADA6D43E23DD0EF300BA6104 /* StampyUITests */,
+				ADA6D41B23DD0EF200BA6104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA6D41B23DD0EF200BA6104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D41A23DD0EF200BA6104 /* Stampy.app */,
+				ADA6D43023DD0EF300BA6104 /* StampyTests.xctest */,
+				ADA6D43B23DD0EF300BA6104 /* StampyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA6D41C23DD0EF200BA6104 /* Stampy */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D41D23DD0EF200BA6104 /* AppDelegate.swift */,
+				ADA6D41F23DD0EF200BA6104 /* SceneDelegate.swift */,
+				ADA6D42123DD0EF200BA6104 /* ContentView.swift */,
+				ADA6D42323DD0EF300BA6104 /* Assets.xcassets */,
+				ADA6D42823DD0EF300BA6104 /* LaunchScreen.storyboard */,
+				ADA6D42B23DD0EF300BA6104 /* Info.plist */,
+				ADA6D42523DD0EF300BA6104 /* Preview Content */,
+			);
+			path = Stampy;
+			sourceTree = "<group>";
+		};
+		ADA6D42523DD0EF300BA6104 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D42623DD0EF300BA6104 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADA6D43323DD0EF300BA6104 /* StampyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D43423DD0EF300BA6104 /* StampyTests.swift */,
+				ADA6D43623DD0EF300BA6104 /* Info.plist */,
+			);
+			path = StampyTests;
+			sourceTree = "<group>";
+		};
+		ADA6D43E23DD0EF300BA6104 /* StampyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D43F23DD0EF300BA6104 /* StampyUITests.swift */,
+				ADA6D44123DD0EF300BA6104 /* Info.plist */,
+			);
+			path = StampyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA6D41923DD0EF200BA6104 /* Stampy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA6D44423DD0EF300BA6104 /* Build configuration list for PBXNativeTarget "Stampy" */;
+			buildPhases = (
+				ADA6D41623DD0EF200BA6104 /* Sources */,
+				ADA6D41723DD0EF200BA6104 /* Frameworks */,
+				ADA6D41823DD0EF200BA6104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stampy;
+			productName = Stampy;
+			productReference = ADA6D41A23DD0EF200BA6104 /* Stampy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA6D42F23DD0EF300BA6104 /* StampyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA6D44723DD0EF300BA6104 /* Build configuration list for PBXNativeTarget "StampyTests" */;
+			buildPhases = (
+				ADA6D42C23DD0EF300BA6104 /* Sources */,
+				ADA6D42D23DD0EF300BA6104 /* Frameworks */,
+				ADA6D42E23DD0EF300BA6104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA6D43223DD0EF300BA6104 /* PBXTargetDependency */,
+			);
+			name = StampyTests;
+			productName = StampyTests;
+			productReference = ADA6D43023DD0EF300BA6104 /* StampyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADA6D43A23DD0EF300BA6104 /* StampyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA6D44A23DD0EF300BA6104 /* Build configuration list for PBXNativeTarget "StampyUITests" */;
+			buildPhases = (
+				ADA6D43723DD0EF300BA6104 /* Sources */,
+				ADA6D43823DD0EF300BA6104 /* Frameworks */,
+				ADA6D43923DD0EF300BA6104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA6D43D23DD0EF300BA6104 /* PBXTargetDependency */,
+			);
+			name = StampyUITests;
+			productName = StampyUITests;
+			productReference = ADA6D43B23DD0EF300BA6104 /* StampyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA6D41223DD0EF200BA6104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hiromu Nakano";
+				TargetAttributes = {
+					ADA6D41923DD0EF200BA6104 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ADA6D42F23DD0EF300BA6104 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ADA6D41923DD0EF200BA6104;
+					};
+					ADA6D43A23DD0EF300BA6104 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ADA6D41923DD0EF200BA6104;
+					};
+				};
+			};
+			buildConfigurationList = ADA6D41523DD0EF200BA6104 /* Build configuration list for PBXProject "Stampy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA6D41123DD0EF200BA6104;
+			productRefGroup = ADA6D41B23DD0EF200BA6104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA6D41923DD0EF200BA6104 /* Stampy */,
+				ADA6D42F23DD0EF300BA6104 /* StampyTests */,
+				ADA6D43A23DD0EF300BA6104 /* StampyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA6D41823DD0EF200BA6104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA6D42A23DD0EF300BA6104 /* LaunchScreen.storyboard in Resources */,
+				ADA6D42723DD0EF300BA6104 /* Preview Assets.xcassets in Resources */,
+				ADA6D42423DD0EF300BA6104 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6D42E23DD0EF300BA6104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6D43923DD0EF300BA6104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA6D41623DD0EF200BA6104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA6D41E23DD0EF200BA6104 /* AppDelegate.swift in Sources */,
+				ADA6D42023DD0EF200BA6104 /* SceneDelegate.swift in Sources */,
+				ADA6D42223DD0EF200BA6104 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6D42C23DD0EF300BA6104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA6D43523DD0EF300BA6104 /* StampyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA6D43723DD0EF300BA6104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA6D44023DD0EF300BA6104 /* StampyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA6D43223DD0EF300BA6104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA6D41923DD0EF200BA6104 /* Stampy */;
+			targetProxy = ADA6D43123DD0EF300BA6104 /* PBXContainerItemProxy */;
+		};
+		ADA6D43D23DD0EF300BA6104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA6D41923DD0EF200BA6104 /* Stampy */;
+			targetProxy = ADA6D43C23DD0EF300BA6104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA6D42823DD0EF300BA6104 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA6D42923DD0EF300BA6104 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA6D44223DD0EF300BA6104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA6D44323DD0EF300BA6104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA6D44523DD0EF300BA6104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stampy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stampy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakano.hiromu.Stampy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA6D44623DD0EF300BA6104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stampy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stampy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakano.hiromu.Stampy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADA6D44823DD0EF300BA6104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StampyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakano.hiromu.StampyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stampy.app/Stampy";
+			};
+			name = Debug;
+		};
+		ADA6D44923DD0EF300BA6104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StampyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakano.hiromu.StampyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stampy.app/Stampy";
+			};
+			name = Release;
+		};
+		ADA6D44B23DD0EF300BA6104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StampyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakano.hiromu.StampyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stampy;
+			};
+			name = Debug;
+		};
+		ADA6D44C23DD0EF300BA6104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StampyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakano.hiromu.StampyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stampy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA6D41523DD0EF200BA6104 /* Build configuration list for PBXProject "Stampy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA6D44223DD0EF300BA6104 /* Debug */,
+				ADA6D44323DD0EF300BA6104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA6D44423DD0EF300BA6104 /* Build configuration list for PBXNativeTarget "Stampy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA6D44523DD0EF300BA6104 /* Debug */,
+				ADA6D44623DD0EF300BA6104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA6D44723DD0EF300BA6104 /* Build configuration list for PBXNativeTarget "StampyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA6D44823DD0EF300BA6104 /* Debug */,
+				ADA6D44923DD0EF300BA6104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA6D44A23DD0EF300BA6104 /* Build configuration list for PBXNativeTarget "StampyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA6D44B23DD0EF300BA6104 /* Debug */,
+				ADA6D44C23DD0EF300BA6104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA6D41223DD0EF200BA6104 /* Project object */;
+}
