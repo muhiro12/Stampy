@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		ADA6D45D23DD177900BA6104 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45C23DD177900BA6104 /* LogsView.swift */; };
 		ADA6D46023DD19FA00BA6104 /* StampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45F23DD19FA00BA6104 /* StampView.swift */; };
 		ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46123DD1D0100BA6104 /* LoginView.swift */; };
+		ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +191,9 @@
 			dependencies = (
 			);
 			name = Stampy;
+			packageProductDependencies = (
+				ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */,
+			);
 			productName = Stampy;
 			productReference = ADA6D41A23DD0EF200BA6104 /* Stampy.app */;
 			productType = "com.apple.product-type.application";
@@ -261,6 +266,9 @@
 				Base,
 			);
 			mainGroup = ADA6D41123DD0EF200BA6104;
+			packageReferences = (
+				ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
+			);
 			productRefGroup = ADA6D41B23DD0EF200BA6104 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -649,6 +657,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sunshinejr/SwiftyUserDefaults.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */;
+			productName = SwiftyUserDefaults;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADA6D41223DD0EF200BA6104 /* Project object */;
 }
