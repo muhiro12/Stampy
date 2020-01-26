@@ -15,6 +15,10 @@
 		ADA6D42A23DD0EF300BA6104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA6D42823DD0EF300BA6104 /* LaunchScreen.storyboard */; };
 		ADA6D43523DD0EF300BA6104 /* StampyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D43423DD0EF300BA6104 /* StampyTests.swift */; };
 		ADA6D44023DD0EF300BA6104 /* StampyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D43F23DD0EF300BA6104 /* StampyUITests.swift */; };
+		ADA6D45823DD145800BA6104 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45723DD145800BA6104 /* SettingsView.swift */; };
+		ADA6D45D23DD177900BA6104 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45C23DD177900BA6104 /* LogsView.swift */; };
+		ADA6D46023DD19FA00BA6104 /* StampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45F23DD19FA00BA6104 /* StampView.swift */; };
+		ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46123DD1D0100BA6104 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		ADA6D43B23DD0EF300BA6104 /* StampyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA6D43F23DD0EF300BA6104 /* StampyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampyUITests.swift; sourceTree = "<group>"; };
 		ADA6D44123DD0EF300BA6104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA6D45723DD145800BA6104 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ADA6D45C23DD177900BA6104 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		ADA6D45F23DD19FA00BA6104 /* StampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampView.swift; sourceTree = "<group>"; };
+		ADA6D46123DD1D0100BA6104 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,9 @@
 				ADA6D42323DD0EF300BA6104 /* Assets.xcassets */,
 				ADA6D42823DD0EF300BA6104 /* LaunchScreen.storyboard */,
 				ADA6D42B23DD0EF300BA6104 /* Info.plist */,
+				ADA6D45B23DD176E00BA6104 /* Logs */,
+				ADA6D45E23DD198200BA6104 /* Stamp */,
+				ADA6D45623DD144900BA6104 /* Settings */,
 				ADA6D42523DD0EF300BA6104 /* Preview Content */,
 			);
 			path = Stampy;
@@ -134,6 +145,31 @@
 				ADA6D44123DD0EF300BA6104 /* Info.plist */,
 			);
 			path = StampyUITests;
+			sourceTree = "<group>";
+		};
+		ADA6D45623DD144900BA6104 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D45723DD145800BA6104 /* SettingsView.swift */,
+				ADA6D46123DD1D0100BA6104 /* LoginView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		ADA6D45B23DD176E00BA6104 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D45C23DD177900BA6104 /* LogsView.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		ADA6D45E23DD198200BA6104 /* Stamp */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D45F23DD19FA00BA6104 /* StampView.swift */,
+			);
+			path = Stamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA6D41E23DD0EF200BA6104 /* AppDelegate.swift in Sources */,
+				ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */,
+				ADA6D45D23DD177900BA6104 /* LogsView.swift in Sources */,
+				ADA6D46023DD19FA00BA6104 /* StampView.swift in Sources */,
+				ADA6D45823DD145800BA6104 /* SettingsView.swift in Sources */,
 				ADA6D42023DD0EF200BA6104 /* SceneDelegate.swift in Sources */,
 				ADA6D42223DD0EF200BA6104 /* ContentView.swift in Sources */,
 			);
