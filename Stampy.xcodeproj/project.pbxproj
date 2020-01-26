@@ -20,6 +20,7 @@
 		ADA6D46023DD19FA00BA6104 /* StampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45F23DD19FA00BA6104 /* StampView.swift */; };
 		ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46123DD1D0100BA6104 /* LoginView.swift */; };
 		ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */; };
+		ADA6D46823DDE65F00BA6104 /* DefaultsKeysExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		ADA6D45C23DD177900BA6104 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
 		ADA6D45F23DD19FA00BA6104 /* StampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampView.swift; sourceTree = "<group>"; };
 		ADA6D46123DD1D0100BA6104 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeysExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				ADA6D42323DD0EF300BA6104 /* Assets.xcassets */,
 				ADA6D42823DD0EF300BA6104 /* LaunchScreen.storyboard */,
 				ADA6D42B23DD0EF300BA6104 /* Info.plist */,
+				ADA6D46623DDE64000BA6104 /* Common */,
 				ADA6D45B23DD176E00BA6104 /* Logs */,
 				ADA6D45E23DD198200BA6104 /* Stamp */,
 				ADA6D45623DD144900BA6104 /* Settings */,
@@ -172,6 +175,14 @@
 				ADA6D45F23DD19FA00BA6104 /* StampView.swift */,
 			);
 			path = Stamp;
+			sourceTree = "<group>";
+		};
+		ADA6D46623DDE64000BA6104 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +350,7 @@
 				ADA6D45823DD145800BA6104 /* SettingsView.swift in Sources */,
 				ADA6D42023DD0EF200BA6104 /* SceneDelegate.swift in Sources */,
 				ADA6D42223DD0EF200BA6104 /* ContentView.swift in Sources */,
+				ADA6D46823DDE65F00BA6104 /* DefaultsKeysExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

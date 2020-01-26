@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import SwiftyUserDefaults
 
 struct LoginView: View {
 
@@ -29,6 +30,12 @@ struct LoginView: View {
     }
 
     private func tapButton() {
+        guard !userID.isEmpty, !password.isEmpty else {
+            return
+        }
+        Defaults[\.userID] = userID
+        Defaults[\.password] = password
+        Defaults[\.signedIn] = true
         presentationMode.wrappedValue.dismiss()
     }
 }
