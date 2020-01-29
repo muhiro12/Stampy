@@ -21,6 +21,10 @@
 		ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46123DD1D0100BA6104 /* LoginView.swift */; };
 		ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */; };
 		ADA6D46823DDE65F00BA6104 /* DefaultsKeysExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */; };
+		ADA6D46B23E1A82500BA6104 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADA6D46A23E1A82500BA6104 /* RealmSwift */; };
+		ADA6D46F23E1A97800BA6104 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46E23E1A97800BA6104 /* Database.swift */; };
+		ADA6D47123E1A9DD00BA6104 /* LogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D47023E1A9DD00BA6104 /* LogData.swift */; };
+		ADA6D47323E1B5C900BA6104 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D47223E1B5C900BA6104 /* Logs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,9 @@
 		ADA6D45F23DD19FA00BA6104 /* StampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampView.swift; sourceTree = "<group>"; };
 		ADA6D46123DD1D0100BA6104 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeysExtension.swift; sourceTree = "<group>"; };
+		ADA6D46E23E1A97800BA6104 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		ADA6D47023E1A9DD00BA6104 /* LogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogData.swift; sourceTree = "<group>"; };
+		ADA6D47223E1B5C900BA6104 /* Logs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA6D46B23E1A82500BA6104 /* RealmSwift in Frameworks */,
 				ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				ADA6D45C23DD177900BA6104 /* LogsView.swift */,
+				ADA6D47023E1A9DD00BA6104 /* LogData.swift */,
+				ADA6D47223E1B5C900BA6104 /* Logs.swift */,
 			);
 			path = Logs;
 			sourceTree = "<group>";
@@ -181,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */,
+				ADA6D46E23E1A97800BA6104 /* Database.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -204,6 +215,7 @@
 			name = Stampy;
 			packageProductDependencies = (
 				ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */,
+				ADA6D46A23E1A82500BA6104 /* RealmSwift */,
 			);
 			productName = Stampy;
 			productReference = ADA6D41A23DD0EF200BA6104 /* Stampy.app */;
@@ -279,6 +291,7 @@
 			mainGroup = ADA6D41123DD0EF200BA6104;
 			packageReferences = (
 				ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
+				ADA6D46923E1A82500BA6104 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 			);
 			productRefGroup = ADA6D41B23DD0EF200BA6104 /* Products */;
 			projectDirPath = "";
@@ -349,7 +362,10 @@
 				ADA6D46023DD19FA00BA6104 /* StampView.swift in Sources */,
 				ADA6D45823DD145800BA6104 /* SettingsView.swift in Sources */,
 				ADA6D42023DD0EF200BA6104 /* SceneDelegate.swift in Sources */,
+				ADA6D46F23E1A97800BA6104 /* Database.swift in Sources */,
 				ADA6D42223DD0EF200BA6104 /* ContentView.swift in Sources */,
+				ADA6D47323E1B5C900BA6104 /* Logs.swift in Sources */,
+				ADA6D47123E1A9DD00BA6104 /* LogData.swift in Sources */,
 				ADA6D46823DDE65F00BA6104 /* DefaultsKeysExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -679,6 +695,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		ADA6D46923E1A82500BA6104 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -686,6 +710,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */;
 			productName = SwiftyUserDefaults;
+		};
+		ADA6D46A23E1A82500BA6104 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADA6D46923E1A82500BA6104 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

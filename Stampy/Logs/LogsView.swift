@@ -9,9 +9,24 @@
 import SwiftUI
 
 struct LogsView: View {
+
     var body: some View {
         List {
-            Text("Leave 2020/01/01")
+            ForEach(logs, id: \.self) { log in
+                HStack {
+                    Text(log.date)
+                    Text(log.type)
+                }
+            }
+        }
+    }
+
+    var logs: [LogData] {
+        let database = Logs()
+        if let logs = database.fetch() {
+            return logs.reversed()
+        } else {
+            return []
         }
     }
 }
