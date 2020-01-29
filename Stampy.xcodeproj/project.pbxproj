@@ -21,6 +21,7 @@
 		ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46123DD1D0100BA6104 /* LoginView.swift */; };
 		ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */; };
 		ADA6D46823DDE65F00BA6104 /* DefaultsKeysExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */; };
+		ADA6D46B23E1A82500BA6104 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADA6D46A23E1A82500BA6104 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA6D46B23E1A82500BA6104 /* RealmSwift in Frameworks */,
 				ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +206,7 @@
 			name = Stampy;
 			packageProductDependencies = (
 				ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */,
+				ADA6D46A23E1A82500BA6104 /* RealmSwift */,
 			);
 			productName = Stampy;
 			productReference = ADA6D41A23DD0EF200BA6104 /* Stampy.app */;
@@ -279,6 +282,7 @@
 			mainGroup = ADA6D41123DD0EF200BA6104;
 			packageReferences = (
 				ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
+				ADA6D46923E1A82500BA6104 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 			);
 			productRefGroup = ADA6D41B23DD0EF200BA6104 /* Products */;
 			projectDirPath = "";
@@ -679,6 +683,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		ADA6D46923E1A82500BA6104 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -686,6 +698,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */;
 			productName = SwiftyUserDefaults;
+		};
+		ADA6D46A23E1A82500BA6104 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADA6D46923E1A82500BA6104 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
