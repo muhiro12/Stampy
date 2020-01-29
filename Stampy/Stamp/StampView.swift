@@ -28,7 +28,8 @@ struct StampView: View {
     }
 
     private func tapButton() {
-        print("some action")
+        let database = Logs()
+        database.save(at: Logs.Time.leave)
     }
 }
 
