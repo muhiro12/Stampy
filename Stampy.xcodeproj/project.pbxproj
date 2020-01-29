@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,12 @@
 		ADA6D42A23DD0EF300BA6104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA6D42823DD0EF300BA6104 /* LaunchScreen.storyboard */; };
 		ADA6D43523DD0EF300BA6104 /* StampyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D43423DD0EF300BA6104 /* StampyTests.swift */; };
 		ADA6D44023DD0EF300BA6104 /* StampyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D43F23DD0EF300BA6104 /* StampyUITests.swift */; };
+		ADA6D45823DD145800BA6104 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45723DD145800BA6104 /* SettingsView.swift */; };
+		ADA6D45D23DD177900BA6104 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45C23DD177900BA6104 /* LogsView.swift */; };
+		ADA6D46023DD19FA00BA6104 /* StampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D45F23DD19FA00BA6104 /* StampView.swift */; };
+		ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46123DD1D0100BA6104 /* LoginView.swift */; };
+		ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */; };
+		ADA6D46823DDE65F00BA6104 /* DefaultsKeysExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,11 @@
 		ADA6D43B23DD0EF300BA6104 /* StampyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA6D43F23DD0EF300BA6104 /* StampyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampyUITests.swift; sourceTree = "<group>"; };
 		ADA6D44123DD0EF300BA6104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA6D45723DD145800BA6104 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ADA6D45C23DD177900BA6104 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		ADA6D45F23DD19FA00BA6104 /* StampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampView.swift; sourceTree = "<group>"; };
+		ADA6D46123DD1D0100BA6104 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeysExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA6D46523DDE60000BA6104 /* SwiftyUserDefaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +117,10 @@
 				ADA6D42323DD0EF300BA6104 /* Assets.xcassets */,
 				ADA6D42823DD0EF300BA6104 /* LaunchScreen.storyboard */,
 				ADA6D42B23DD0EF300BA6104 /* Info.plist */,
+				ADA6D46623DDE64000BA6104 /* Common */,
+				ADA6D45B23DD176E00BA6104 /* Logs */,
+				ADA6D45E23DD198200BA6104 /* Stamp */,
+				ADA6D45623DD144900BA6104 /* Settings */,
 				ADA6D42523DD0EF300BA6104 /* Preview Content */,
 			);
 			path = Stampy;
@@ -136,6 +152,39 @@
 			path = StampyUITests;
 			sourceTree = "<group>";
 		};
+		ADA6D45623DD144900BA6104 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D45723DD145800BA6104 /* SettingsView.swift */,
+				ADA6D46123DD1D0100BA6104 /* LoginView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		ADA6D45B23DD176E00BA6104 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D45C23DD177900BA6104 /* LogsView.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		ADA6D45E23DD198200BA6104 /* Stamp */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D45F23DD19FA00BA6104 /* StampView.swift */,
+			);
+			path = Stamp;
+			sourceTree = "<group>";
+		};
+		ADA6D46623DDE64000BA6104 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,12 +195,16 @@
 				ADA6D41623DD0EF200BA6104 /* Sources */,
 				ADA6D41723DD0EF200BA6104 /* Frameworks */,
 				ADA6D41823DD0EF200BA6104 /* Resources */,
+				ADA6D45923DD15E500BA6104 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Stampy;
+			packageProductDependencies = (
+				ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */,
+			);
 			productName = Stampy;
 			productReference = ADA6D41A23DD0EF200BA6104 /* Stampy.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +277,9 @@
 				Base,
 			);
 			mainGroup = ADA6D41123DD0EF200BA6104;
+			packageReferences = (
+				ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */,
+			);
 			productRefGroup = ADA6D41B23DD0EF200BA6104 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,14 +318,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADA6D45923DD15E500BA6104 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect --format\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADA6D41623DD0EF200BA6104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ADA6D41E23DD0EF200BA6104 /* AppDelegate.swift in Sources */,
+				ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */,
+				ADA6D45D23DD177900BA6104 /* LogsView.swift in Sources */,
+				ADA6D46023DD19FA00BA6104 /* StampView.swift in Sources */,
+				ADA6D45823DD145800BA6104 /* SettingsView.swift in Sources */,
 				ADA6D42023DD0EF200BA6104 /* SceneDelegate.swift in Sources */,
 				ADA6D42223DD0EF200BA6104 /* ContentView.swift in Sources */,
+				ADA6D46823DDE65F00BA6104 /* DefaultsKeysExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +669,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sunshinejr/SwiftyUserDefaults.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADA6D46423DDE60000BA6104 /* SwiftyUserDefaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADA6D46323DDE60000BA6104 /* XCRemoteSwiftPackageReference "SwiftyUserDefaults" */;
+			productName = SwiftyUserDefaults;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADA6D41223DD0EF200BA6104 /* Project object */;
 }
