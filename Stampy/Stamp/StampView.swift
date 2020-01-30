@@ -28,8 +28,8 @@ struct StampView: View {
     }
 
     private func tapButton() {
-        let database = Logs()
-        database.save(at: Logs.Time.leave)
+        Logs().save(at: Logs.Time.leave)
+        StampType.shared.run(type: .attendance)
     }
 }
 
