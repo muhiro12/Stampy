@@ -10,6 +10,7 @@
 		AD55D14323E30CF400BEFD5A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D14223E30CF400BEFD5A /* API.swift */; };
 		AD55D14823E3105400BEFD5A /* Environments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D14723E3105400BEFD5A /* Environments.swift */; };
 		AD55D14C23E3170E00BEFD5A /* StampType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D14B23E3170E00BEFD5A /* StampType.swift */; };
+		AD55D14E23E4E71700BEFD5A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55D14D23E4E71700BEFD5A /* LocationManager.swift */; };
 		ADA6D41E23DD0EF200BA6104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D41D23DD0EF200BA6104 /* AppDelegate.swift */; };
 		ADA6D42023DD0EF200BA6104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D41F23DD0EF200BA6104 /* SceneDelegate.swift */; };
 		ADA6D42223DD0EF200BA6104 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA6D42123DD0EF200BA6104 /* ContentView.swift */; };
@@ -52,6 +53,7 @@
 		AD55D14223E30CF400BEFD5A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		AD55D14723E3105400BEFD5A /* Environments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environments.swift; sourceTree = "<group>"; };
 		AD55D14B23E3170E00BEFD5A /* StampType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampType.swift; sourceTree = "<group>"; };
+		AD55D14D23E4E71700BEFD5A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		ADA6D41A23DD0EF200BA6104 /* Stampy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stampy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA6D41D23DD0EF200BA6104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA6D41F23DD0EF200BA6104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				AD55D14223E30CF400BEFD5A /* API.swift */,
 				ADA6D46E23E1A97800BA6104 /* Database.swift */,
 				ADA6D46723DDE65F00BA6104 /* DefaultsKeysExtension.swift */,
+				AD55D14D23E4E71700BEFD5A /* LocationManager.swift */,
 				AD55D14723E3105400BEFD5A /* Environments.swift */,
 			);
 			path = Common;
@@ -371,6 +374,7 @@
 			files = (
 				AD55D14C23E3170E00BEFD5A /* StampType.swift in Sources */,
 				ADA6D41E23DD0EF200BA6104 /* AppDelegate.swift in Sources */,
+				AD55D14E23E4E71700BEFD5A /* LocationManager.swift in Sources */,
 				ADA6D46223DD1D0100BA6104 /* LoginView.swift in Sources */,
 				ADA6D45D23DD177900BA6104 /* LogsView.swift in Sources */,
 				ADA6D46023DD19FA00BA6104 /* StampView.swift in Sources */,
