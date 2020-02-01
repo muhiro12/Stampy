@@ -26,7 +26,8 @@ struct LoginView: View {
 
             Button(action: tapButton) {
                 Text("Sign in")
-            }.roundedCorners()
+                    .roundedCorners()
+            }
         }.frame(width: 300)
     }
 
