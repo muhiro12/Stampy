@@ -30,7 +30,6 @@ enum StampType: String, API {
 }
 
 extension StampType: TargetType {
-
     var baseURL: URL {
         return URL(string: Environments.apiURL)!
     }
@@ -64,7 +63,6 @@ extension StampType: TargetType {
             "X-API-Key": Environments.apiKey
         ]
     }
-
 }
 
 struct UserInfo: Codable {

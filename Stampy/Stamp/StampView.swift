@@ -9,27 +9,39 @@
 import SwiftUI
 
 struct StampView: View {
+    @State private var isAttendance = StampType.shared == .attendance
+
     var body: some View {
-        VStack {
-            Text("Title")
+        VStack(spacing: Self.spaceL) {
+            Text("Stampy")
+                .font(.largeTitle)
 
             VStack {
                 Image(systemName: "arrowtriangle.up")
                     .imageScale(.small)
+                    .foregroundColor(isAttendance ? .gray : .clear)
 
                 Button(action: tapButton) {
-                    Text("Button")
-                }
+                    Text(isAttendance ? "Attendance" : "Leave")
+                }.roundedCorners(color: isAttendance ? .blue : .green)
+                    .gesture(buttonGesture)
 
                 Image(systemName: "arrowtriangle.down")
                     .imageScale(.small)
-            }
+                    .foregroundColor(isAttendance ? .clear : .gray)
+            }.frame(height: 200)
         }
     }
 
     private func tapButton() {
-        Logs().save(at: Logs.Time.leave)
-        StampType.shared.run(type: .attendance)
+        Logs().save(at: isAttendance ? .attendance : .leave)
+        StampType.shared.run(type: isAttendance ? .attendance : .leave)
+    }
+
+    var buttonGesture: _EndedGesture<DragGesture> {
+        return DragGesture().onEnded { (value) in
+            self.isAttendance = value.translation.height > 0
+        }
     }
 }
 

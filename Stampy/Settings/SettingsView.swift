@@ -10,17 +10,19 @@ import SwiftUI
 import SwiftyUserDefaults
 
 struct SettingsView: View {
-
     @State private var isPresented = false
     @State private var signedIn = false
 
     var body: some View {
-        VStack {
+        VStack(spacing: Self.spaceL) {
             Text(Defaults[\.userID] ?? "Please sign in...")
+                .font(.title)
 
-            Button(action: tapButton) {
-                Text(signedIn ? "Sign out" : "Sing in")
-            }
+            VStack {
+                Button(action: tapButton) {
+                    Text(signedIn ? "Sign out" : "Sign in")
+                }.roundedCorners(color: signedIn ? .gray : .blue)
+            }.frame(height: 200)
         }.onAppear {
             self.updateSignedInState()
         }.sheet(isPresented: $isPresented, onDismiss: updateSignedInState) {
