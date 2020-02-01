@@ -25,7 +25,7 @@ struct Logs: Database {
         formatter.locale = Locale(identifier: "ja_JP")
 
         data.date = formatter.string(from: Date())
-        data.type = time.rawValue
+        data.type = time == .attendance ? "Attendance" : "Leave"
 
         save(data: data)
     }

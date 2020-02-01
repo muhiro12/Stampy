@@ -21,7 +21,8 @@ struct SettingsView: View {
             VStack {
                 Button(action: tapButton) {
                     Text(signedIn ? "Sign out" : "Sign in")
-                }.roundedCorners(color: signedIn ? .gray : .blue)
+                        .roundedCorners(color: signedIn ? .gray : .blue)
+                }
             }.frame(height: 200)
         }.onAppear {
             self.updateSignedInState()

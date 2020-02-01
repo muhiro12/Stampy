@@ -23,8 +23,8 @@ struct StampView: View {
 
                 Button(action: tapButton) {
                     Text(isAttendance ? "Attendance" : "Leave")
-                }.roundedCorners(color: isAttendance ? .blue : .green)
-                    .gesture(buttonGesture)
+                        .roundedCorners(color: isAttendance ? .blue : .green)
+                }.gesture(buttonGesture)
 
                 Image(systemName: "arrowtriangle.down")
                     .imageScale(.small)
