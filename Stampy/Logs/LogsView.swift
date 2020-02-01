@@ -9,13 +9,14 @@
 import SwiftUI
 
 struct LogsView: View {
-
     var body: some View {
         List {
             ForEach(logs, id: \.self) { log in
                 HStack {
                     Text(log.date)
                     Text(log.type)
+                        .font(.headline)
+                        .foregroundColor(log.type == "Attendance" ? .blue : .green)
                 }
             }
         }

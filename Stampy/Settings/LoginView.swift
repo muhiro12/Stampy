@@ -10,23 +10,24 @@ import SwiftUI
 import SwiftyUserDefaults
 
 struct LoginView: View {
-
     @Environment(\.presentationMode) private var presentationMode
     @State var userID = ""
     @State var password = ""
 
     var body: some View {
-        Form {
+        VStack(spacing: Self.spaceM) {
             TextField("Mail address", text: $userID)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
                 .textContentType(.emailAddress)
                 .autocapitalization(.none)
 
             SecureField("Password", text: $password)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
 
             Button(action: tapButton) {
-                Text("Login")
-            }
-        }
+                Text("Sign in")
+            }.roundedCorners()
+        }.frame(width: 300)
     }
 
     private func tapButton() {
