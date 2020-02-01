@@ -16,8 +16,7 @@ class LocationManager: CLLocationManager {
     override private init() {}
 
     func start() {
-        LocationManager.shared.desiredAccuracy = kCLLocationAccuracyBest
-        LocationManager.shared.distanceFilter = 1
+        LocationManager.shared.distanceFilter = 5
 
         let status = CLLocationManager.authorizationStatus()
         if status == .authorizedAlways {
