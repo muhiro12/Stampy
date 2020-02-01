@@ -16,7 +16,7 @@ class LocationManager: CLLocationManager {
     override private init() {}
 
     func start() {
-        LocationManager.shared.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+        LocationManager.shared.desiredAccuracy = kCLLocationAccuracyBest
         LocationManager.shared.distanceFilter = 1
 
         let status = CLLocationManager.authorizationStatus()
