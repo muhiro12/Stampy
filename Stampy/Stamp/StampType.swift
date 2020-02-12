@@ -68,4 +68,9 @@ extension StampType: TargetType {
 struct UserInfo: Codable {
     let userID: String
     let password: String
+
+    enum CodingKeys: String, CodingKey {
+        case userID = "id"
+        case password
+    }
 }
